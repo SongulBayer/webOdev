@@ -1,0 +1,11 @@
+C:\Users\songül bayer\source\repos\Odev\entity framework\bin\Debug\entity framework.exe.config
+C:\Users\songül bayer\source\repos\Odev\entity framework\bin\Debug\entity framework.exe
+C:\Users\songül bayer\source\repos\Odev\entity framework\bin\Debug\entity framework.pdb
+C:\Users\songül bayer\source\repos\Odev\entity framework\bin\Debug\EntityFramework.dll
+C:\Users\songül bayer\source\repos\Odev\entity framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\songül bayer\source\repos\Odev\entity framework\bin\Debug\EntityFramework.xml
+C:\Users\songül bayer\source\repos\Odev\entity framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\songül bayer\source\repos\Odev\entity framework\obj\Debug\entity framework.csproj.AssemblyReference.cache
+C:\Users\songül bayer\source\repos\Odev\entity framework\obj\Debug\entity framework.csproj.CoreCompileInputs.cache
+C:\Users\songül bayer\source\repos\Odev\entity framework\obj\Debug\entity framework.exe
+C:\Users\songül bayer\source\repos\Odev\entity framework\obj\Debug\entity framework.pdb
