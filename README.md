@@ -1,3 +1,6 @@
 WEB PROGRAMLAMA PROJE ODEVİ
 Songül Bayer 
 B191210065
+
+Ayşegül Özsoy 
+b191210098
