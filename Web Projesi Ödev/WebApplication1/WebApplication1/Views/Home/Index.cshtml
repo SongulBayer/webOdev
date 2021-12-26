@@ -1,0 +1,135 @@
+﻿
+
+@{
+     ViewData["Title"] = "Home Page";
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hakkımızda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AdminLogin/Index">Admin Login</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <h1>
+        <br />
+
+    </h1>
+    <div class="card-group">
+        <div class="card">
+            <img class="card-img-top" src="~/lib/img/bir.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Balık</h5>
+                <p class="card-text">
+                    Balıkların suda sakince yüzmelerini izlemek sağlımız açısından oldukça
+                    faydalıdır. Akvaryumu izlemenin, suyun dinlendiriciliğinin de etkisiyle kan basıncını
+                    düşüren ve stresi azaltan etkisi vardır. Bu nedenle de genellikle ofislerde ve evlerde
+                    akvaryum bulunuyor. Hatta akvaryum yayını yapan kanalların olma nedeni de bu etkiyle
+                    ilgilidir. Feng Shui sanatına göre de balıkların şans ve pozitif enerji getirdiği için
+                    önemi büyüktür
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                @*    <a href="/Balik/Index" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Detaylı Bilgi</a>*@
+                <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" asp-area="" asp-controller="Baliks" asp-action="Index">Detaylı Bilgi</a>
+
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="~/lib/img/iki.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Kuş</h5>
+                <p class="card-text">
+                    Evcil kuş türleri genel olarak arkadaş canlısı ve sosyal yaratıklardır.
+                    Sosyal canlılar olan kuşlarla kısa süre içerisinde derin bağlar kurabilirsiniz.
+                    Evcil kuşlar bakıcılarına oldukça bağlıdır. Bu nedenle bakıcılarının eşyalarını da
+                    tanırlar. Sadece eşyalarınızı tanımakla kalmaz, sizinle yemeğini yer ve hatta omzunuzdan
+                    hiç ayrılmaz. İyi bir evcil hayvan arıyorsanız arkadaş canlısı kuşları tercih
+                    edebilirsiniz.
+
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                @* <a href="/Kus/Index" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Detaylı Bilgi</a>*@
+                <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" asp-area="" asp-controller="Kus" asp-action="Index">Detaylı Bilgi</a>
+
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="~/lib/img/uc.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Kedi</h5>
+                <p class="card-text">
+                    En başta söyleyelim kediler çevre ve doğa dostu hayvanlar.
+                    Acılarınız mı var? Bunlarla baş etmek için tek doğal ilaç kedi.
+                    Aşk hayatım yoluna girsin istiyorsan çare kedi!
+                    Çok net konuşmak istemiyoruz ama kedi sahipleri daha zeki galiba.
+                    Kalp sağlığı için Canan Karatay yerine kedi!
+                    Belki tüm bu saydıklarımızdan sonra bir kedi sahiplenmek istersiniz :').
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                @*<a href="/Kedi/Index" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Detaylı Bilgi</a>*@
+                <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" asp-area="" asp-controller="Kedis" asp-action="Index">Detaylı Bilgi</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="~/lib/img/dort (2).jpg" alt="Card image cap"> 
+            <div class="card-body">
+                <h5 class="card-title">Köpek</h5>
+                <p class="card-text">
+                    Yer yer bazılarımızı birazcık ürkütseler de, köpeklerin harika yanları
+                    saymakla bitmiyor. Bunlardan biri de dört ayaklı can dostlarımızın zihin sağlığına katkıları.
+                    Şimdiye kadar konuyla ilgili yapılan neredeyse bütün bilimsel çalışmalar, bir köpekle dostça
+                    bir etkileşimde bulunmanın faydalarına işaret ediyor
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                @* <a href="/Kopek/Index" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Detaylı Bilgi</a>*@
+                <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" asp-area="" asp-controller="Kopeks" asp-action="Index">Detaylı Bilgi</a>
+
+            </div>
+        </div>
+</body>
+</html>
+
+
+
+

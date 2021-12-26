@@ -1,0 +1,35 @@
+﻿@model WebApplication1.Models.Balik
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h3>Yavrumuzun artık yeni bir yuvası varr&#128051;</h3>
+
+<div>
+    <h4>Balik</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.fiyat)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.fiyat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.adi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.adi)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        Sahiplendirme sayfasına geri dön
+    </form>
+</div>

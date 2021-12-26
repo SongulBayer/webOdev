@@ -1,0 +1,44 @@
+﻿@model WebApplication1.Models.Kedi
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h1>Detaylar</h1>
+
+<div>
+    <h4>Kedi</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.fiyat)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.fiyat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.adi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.adi)
+        </dd>
+    </dl>
+
+    Anavatanı İran'dır.
+    Fiziksel özelliklerinden en karakteristiği burnunun basık olmasıdır.
+    Gözleri iridir.
+    Kulakları küçük ve öne eğiktir.
+    Kısa bacaklıdır
+    İri ve yuvarlak patilere sahiptir.
+    Kas yapısı kuvvetlidir.
+    Yuvarlak ve büyük bir kafa ile yuvarlak hatlı bir gövdeye sahiptir.
+
+
+
+</div>
+<div>
+    @*<a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |*@
+    <a asp-action="Index">Listeye Geri Dön</a>
+</div>

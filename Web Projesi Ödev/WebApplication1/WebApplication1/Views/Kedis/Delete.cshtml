@@ -1,0 +1,35 @@
+﻿@model WebApplication1.Models.Kedi
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+@*<h1>Delete</h1>*@
+
+<h3>Yavrumuzun artık yeni bir yuvası varr &#128008;</h3>
+<div>
+    <h4>Kedilerimiz</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.fiyat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.fiyat)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.adi)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.adi)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Sahiplen" class="btn btn-danger" /> |
+        <a asp-action="Index">Sahiplendirme sayfasına geri dön</a>
+    </form>
+</div>
